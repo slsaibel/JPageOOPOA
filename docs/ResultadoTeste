@@ -1,0 +1,57 @@
+
+
+	Parte1:
+		A iteração foi feita utilizando os pacotes: 'java.net.HttpURLConnection'
+		e 'java.net.URL' para permitir a conexão via requisições sobre o protocolo
+		'HTTP' utilizando a classe 'HTTPConnect' do pacote 'br.com.jpage.util',
+		os pacotes 'java.io.BufferedReader' e 'java.io.InputStreamReader' para 
+		manipular os dados para apresentação.
+		Para tal tarefa também foram criadas as classes 'LinhasBean' e 
+		ItinerariosBean' no pacote 'br.com.jpage.beans' para definir os objetos 
+		de uso.
+		No pacote 'br.com.jpage.controller' estão as classes de manipulação dos 
+		objetos 'beans'.
+		
+	Parte2:
+		Para esta tarefa fora desenvolvido um método de busca seguindo a mesma
+		métrica acima para efetuar a busca diretamente do site.
+		
+	Parte3:
+		Para esta parte do teste foi desenvolvida uma 'InterfaceObjeto' e uma
+		'InterfaceDAO' que possibilitam a utilização de objetos genéricos.
+		Também foi criado o pacote 'br.com.jpage.CRUD' com objetos que permitem 
+		a manipulação dos dados em um banco e o SQL de criação na pasta 'SQL'.
+		Para o acesso ao banco de dados foi criada a classe de 'ConexoesDB' no 
+		pacote 'br.com.jpage.util' que utiliza o arquivo 'banco.properties' para
+		conexão com o banco de dados 'Postgres'.
+		A classe 'CRUDLinhasTransPOA' os métodos especícicos para os objetos do
+		tipo linhas. 	
+		
+	Parte4:
+		Não conclída por não haver informações necessárias para o entendimento
+		bem como o acesso ao endereço forneceido não estar mais disponível.
+		
+	Parte5:
+		Em virtude do tempo não foi possivel concluír esta tarefa.
+		Porém trata-se de uma classe similar a classe 'HTTPReqLinhasTransPOA' e
+		um objeto 'bean' padrão, caso a informação seja acessada diretamente.
+		
+		
+	Conclusão:
+		Tempo da tarefa: 26 horas. 
+		Tarefa recebida dia 25 de setembro pelo Sr. Leonardo Augusto Marks as 07:40.
+		Accessada em 25 de setembro as 18:00.
+		Finalizada em 01 de outubro as 19:21 - sem acesso ao site no endereço fornecido.
+		Enviada 01 de outubro.
+		
+		Este teste serviu como uma auto avaliação de meus conhecimentos técnicos,
+		em virtude deste fato não foi utilizado nenhum tipo framework e a base
+		de dados optei pelo Postgres, ao qual possuo maior afinidade.
+		Os exemplos de utilização estão no pacote 'br.com.jpage.util' onde foi 
+		criada a classe 'Main' que contem os códigos de exemplo de utilização.
+		
+		Não optei por representar as classes em 'IHMs' pelo fato de não se de meu 
+		interesse profissional e não considerei enviar para esta avaliação.
+		
+		Atenciosamente
+		Sérgio Luis Saibel. 
